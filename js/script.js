@@ -1,4 +1,14 @@
+let mql = window.matchMedia('(max-width:768px)');
+let hid = document.querySelectorAll('.hid');
+const del = document.querySelector('.v-postion');
 
+if (window.matchMedia('(max-width:768px)').matches === true) {
+   hid[0].remove();
+   hid[1].remove();
+   hid[2].remove();
+  
+   console.log( del.classList.remove('col-xs-12'))
+ }
 
  const menu = document.querySelector(".menu");
  const menuMain = menu.querySelector(".menu-main");

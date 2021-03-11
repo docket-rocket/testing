@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+@media (max-width:768px) {}
+
+
+.v-postion--header {
+	position: relative !important;
+}
+
+.v-postion {
+	position: absolute !important;
+	right: 0 !important;
+}
+
 .icon {
 	font-size: 21px;
 }
